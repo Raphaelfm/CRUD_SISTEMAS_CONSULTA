@@ -1,6 +1,7 @@
-class Medico:
+class Medico(Endereco):
 
     def __init__(self, id_medico:int, crm:str, nome:str, celular:str, id_endereco:int):
+        super().__init__(id_endereco:int, logradouro:str , numero:str, complemento:str , bairro:str , municipio:str , uf: str,cep: str)
         self.id_medico=id_medico
         self.crm=crm
         self.nome=nome

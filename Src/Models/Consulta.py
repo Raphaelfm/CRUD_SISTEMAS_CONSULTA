@@ -28,3 +28,4 @@ class Consulta:
         return self.descricao_consulta
     def getDt_consulta(self) ->str:
         return self.dt_consulta
+    
